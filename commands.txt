@@ -12,9 +12,11 @@ git config user.email
 git status
 
 
+
 git init (initialize the repository)
 git add --a (add all files)
 git commit -m "<message>"
+git commit --amend
 git log (give log of all commits)
 git log -p (also give changes with commits)
 git log -p -<num> (shows the num number of last commits)
@@ -25,6 +27,7 @@ git log --pretty=full
 git log --since=2.days
 git log --since=2.months
 git log --since=2.years
+git log --since=2.hours
 
 git commit -a -m "message"
 
@@ -38,3 +41,7 @@ git diff --staged
 git rm fileName
 git rm --cached fileName   (remove tracked file that we added in gitignore later)
 git mv fileName newFileName (rename file)
+
+git restore --staged fileName (unstaged the file)
+git checkout -- fileName (change the content of file to previous commit file)
+git checkout -f (for all files)
