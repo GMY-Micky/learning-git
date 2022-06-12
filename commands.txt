@@ -45,3 +45,12 @@ git mv fileName newFileName (rename file)
 git restore --staged fileName (unstaged the file)
 git checkout -- fileName (change the content of file to previous commit file)
 git checkout -f (for all files)
+
+
+
+------------------------------
+remote repositories
+------------------------------
+
+git remote
+git remote -v
