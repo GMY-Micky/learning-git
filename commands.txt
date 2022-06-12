@@ -55,3 +55,9 @@ remote repositories
 git remote
 git remote -v
 git push origin main
+
+
+------------------------------
+alias
+------------------------------
+git config --global alias.<new name> <command like : status>
