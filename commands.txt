@@ -1,0 +1,40 @@
+pwd - present working directory
+ls
+
+git config --global user.email "mustafayousaf9876@gmail.com"
+
+git config --li
+
+git config user.name
+
+git config user.email
+
+git status
+
+
+git init (initialize the repository)
+git add --a (add all files)
+git commit -m "<message>"
+git log (give log of all commits)
+git log -p (also give changes with commits)
+git log -p -<num> (shows the num number of last commits)
+git log --stat (short summary of commits)
+git log --pretty=oneline
+git log --pretty=short
+git log --pretty=full
+git log --since=2.days
+git log --since=2.months
+git log --since=2.years
+
+git commit -a -m "message"
+
+rm -rf .git (remove all log from folder)
+
+git clone "link"
+
+git diff (compare working direcory and staged area)
+git diff --staged
+
+git rm fileName
+git rm --cached fileName   (remove tracked file that we added in gitignore later)
+git mv fileName newFileName (rename file)
