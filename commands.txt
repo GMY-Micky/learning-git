@@ -61,3 +61,12 @@ git push origin main
 alias
 ------------------------------
 git config --global alias.<new name> <command like : status>
+
+
+
+------------------------------
+new branch
+------------------------------
+git checkout -b <new branch name>
+git checkout <branch name> (switch branch)
+git branch
