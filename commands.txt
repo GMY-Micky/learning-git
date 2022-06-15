@@ -70,3 +70,8 @@ new branch
 git checkout -b <new branch name>
 git checkout <branch name> (switch branch)
 git branch
+
+ajsdasgjk
+ashdjask
+mhasdjkasj
+aksjdkasd
