@@ -69,12 +69,8 @@ new branch
 ------------------------------
 git checkout -b <new branch name>
 git checkout <branch name> (switch branch)
-<<<<<<< HEAD
 
 git branch 
 git branch -v
 git branch --merged
 git branch --no-merged
-=======
-git branch
->>>>>>> develop
